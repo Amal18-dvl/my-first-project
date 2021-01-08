@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Complete Responsive Website Design</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<div class="banner">	
+		 <header>
+			<a href="#" class="logo">Brand Name</a>
+			<div class="toggle"></div>
+		</header>
+		<img src="bg.jpg">
+		<div class="content">
+		<h2>Sucess by Design</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+		</div>
+	</div>
+	<!-- About-->
+	<section class="about">
+		<div class="contentBx">
+			<h2 class="heading">About Us</h2>
+			<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident.</p>
+			
+		</div> 
+		
+		<div class="imgBx">	
+		</div>
+	</section>
+
+	<!-- Services--	 >
+
+	<section class="services">
+		<h2 class="heading">Our services</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur.</p>
+		<div class="container">
+			<div class="serviceBx">
+				<div>
+					<img src="icon1.png">
+					<h2>Desing</h2>
+				</div>
+				<div>
+					<img src="icon2.png">
+					<h2>Development</h2>
+				</div>
+				<div>
+					<img src="icon3.png">
+					<h2>Branding</h2>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
+
+
+
+
+

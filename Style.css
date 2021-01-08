@@ -1,0 +1,575 @@
+*{
+	margin: 0 ;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	max-width: 100%;
+}
+.banner {
+	
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-color: #3475ca;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+.banner img {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	opacity: 0.25;
+}
+.banner .content
+ {
+	position: relative;
+	max-width: 750px;
+	text-align: center;
+}
+.banner .content h2 {
+	color: #fff;
+	font-size: 60px; 
+}
+.banner .content p {
+	color: #fff;
+	font-size:18px;
+	line-height: 30px;
+
+}
+.banner header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 100px ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10000;
+}
+.banner  header .logo {
+   color: #fff;
+   text-decoration: none;
+   font-size: 24px;
+   text-transform: uppercase;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+.banner  header .toggle{
+	position: relative;
+	width: 36px;
+	height: 28px;
+	background: url(toggle.png);
+	background-size: cover;
+	cursor: pointer;
+}
+.about{
+	position: relative;
+	width: 100%;
+	display: flex;
+
+}
+ .about .contentBx {
+ 	background: #162c3b;
+ 	padding: 100px;
+ 	width: 50%;
+}
+.heading{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}		
+
+
+.text{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	line-height: 1.5;	
+}
+.about .imgBx{
+    background: url(window.jpg);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.services {
+	background: #12222d;
+	padding: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+.para{
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+.services  .container {
+
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    margin-top: 60px; 
+}
+
+
+
+	
+.services  .container .serviceBx 
+{
+    position: relative;
+    background: #fff;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.services  .container .serviceBx img{
+	max-width: 100px;}
+
+.technology .contentBx {
+	background: #3f8ffc;
+	width: 100%;
+    padding: 100px;
+    padding-top: 300px;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -300px;
+}
+
+.amal  {
+	color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+.raja {
+	color: #fff;
+	padding-right: 150px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+.client{
+	background: #162c3b;
+	width: 100%;
+}
+.client .para2{
+	padding: 100px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+}
+.client .texte-2 {
+	padding: 100px;
+	padding-top: 0px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+.client .container2{
+	position: relative;
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: space-between;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+}
+.client .container2 img {
+	margin: 10px;
+	opacity: 0.25;
+}
+.client .container2 img:hover{
+	opacity: 1;
+}
+.says {
+	background: #12222d;
+	width: 100%;
+	height: 100vh;
+	padding: 100px;
+
+}
+.says .para3 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 1.25;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.says .container3{
+	display: flex;
+}
+.says .container3 .containerbx1{
+	font-size: 16px;
+	font-weight: 300;
+	padding-right: 25px;
+	background-color: #fff;
+	margin-right: 35px;
+	padding: 65px;
+	line-height: 1.25;
+}
+.says .container3 .containerbx2{
+	font-size: 16px;
+	font-weight: 300;
+	padding-right: 25px;
+	background-color: #fff;
+	margin-right: 35px;
+	padding: 65px;
+	line-height: 1.25;
+}
+.says .container3 .containerbx1 h3{
+	text-align: end;
+	font-weight: 800;
+	color: #3f8ffc;
+}
+.says .container3 .containerbx2 h3{
+    text-align: end;
+    font-weight: 800;
+	color: #3f8ffc;
+}    
+.container4 {
+	width: 100%;
+	
+	background: #162c3b;
+	text-align: center;
+	padding: 100px;
+}
+.container4 h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+.container4 .texte-3{
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	padding-right: 100px;
+	padding-left: 100px;
+	text-align: center;
+	line-height: 1.25;
+}	
+.container5 {
+	width: 100%;
+
+	display: flex;
+
+}
+.container5 .amal-3{
+	width: 50%;
+	height: 100vh;
+	background: url(red.jpg);
+
+
+}
+
+.amal-3{
+	padding: 100px;
+
+
+}
+
+
+
+.container5 .amal-4{
+	background: url(bg2.jpg);
+	width: 50%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.para-4 {
+	position: relative;
+	width: 50%;
+	height: 50px;
+
+}
+.form .inputBx{
+	margin-bottom: 40px;
+
+}
+.form .inputBx input {
+	width: 100%;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	outline: none;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: 300;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+.form .inputBx input::placeholder{
+	color: #fff;
+}
+.form .inputBx textarea {
+	width: 100%;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	outline: none;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: 300;
+	height: 150px;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+.form .inputBx textarea::placeholder{
+	color: #fff;
+}
+.form .inputBx input[type="submit"]
+{
+	width: 150px;
+	background: #fff;
+	color: #111;
+	cursor: pointer;
+	font-weight: 400;
+}
+
+.footer  {
+	background: #12222d;
+	width: 100%;
+	padding:20px 100px;
+	letter-spacing: 1px;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+.footer ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}	
+.footer ul li{
+	list-style: none;
+
+}
+.footer ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0px 10px;
+}	
+@media (max-width: 991px)
+{
+	.banner {
+		padding: 50px;
+	}
+	.banner header {
+		padding: 20px 40px;
+	}
+	.banner .content h2 {
+	    font-size: 36px;
+	}
+	.banner .content p {
+		font-size: 16px;
+	}
+	.about {
+		flex-direction: column;
+	}
+
+		
+
+	
+	.about .contentBx ,
+	.about .imgBx
+	{
+	    width: 100%;
+	    padding: 50px;
+	    
+		min-height: 600px;
+		text-align: center;
+
+	}
+	.about .contentBx .text{
+		width: auto;
+		height: auto;
+
+
+	}
+	.services {
+		padding: 50px;
+	}
+	.services .container{
+		justify-content: center;
+		margin-top: 20px;
+	}
+	.services .container .serviceBx{
+		margin: 20px;
+		width: 250px;
+		height: 300px;
+	}
+	.technology {
+		width: 100%;
+	}
+	.technology .contentBx{
+		padding: 50px;
+		padding-top: 300px;
+		justify-content: center;
+		flex-direction: column;
+	}
+    .technology .contentBx .amal{
+    	padding-bottom: 0px;
+    	text-align: center;
+
+    } 
+
+
+	.technology .contentBx .raja{
+		padding: 50px;
+		padding-top: 20px;
+		text-align: center;
+	}
+	.client {
+		max-width: 100%;
+
+	}
+	.client h2{
+		font-size: 36px;
+	}
+	.client .texte-2{
+		text-align: center;
+	}
+	.client .container2{
+		
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding-top: 0px;
+	}
+	.says{
+		
+		padding: 50px;
+		padding-top: 40px;
+		min-height: 900px;
+
+		
+		
+	}
+	.says .container3{
+
+        display: inline-block;
+	    justify-content: space-between;
+	    align-items: center;
+	    padding-left: 15px;    
+	}
+	.says .containerbx1 {
+		margin-bottom: 30px;
+	}
+	.says .containerbx2 {
+		margin-bottom: 20px;
+	}
+	.container4{
+		padding: 50px;
+	}
+	.container4 .texte-3{
+		
+		width: auto;
+		padding-right: 10px;
+		padding-left: 10px;
+         
+	}
+	.container5 {
+		
+		display: inline-block;
+		justify-content: center;
+
+	}
+	.container5 .amal-3{
+	    width: auto;
+		display: flex;
+		justify-content: center;
+		min-height: 650px;
+		padding-bottom: 30px;	
+
+	}
+	.container5 .amal-4{
+		width: auto;
+		display: flex;
+		justify-content: center;
+		min-height: 900px;
+
+
+	}
+	.footer{
+		padding: 30px;
+		display: inline-block;
+		text-align: center;
+		
+	}
+	.footer .text{
+		width: auto;
+		padding-bottom: 20px;
+		font-size: 20px;
+
+
+
+	}
+    .footer ul li {
+        
+    	
+    } 
+		
+
+	
+	
+
+
+
+	
+
+
+	
+
+
+}
+
+
+
+	
+
+
+
+
+
+
+n: center;
+
